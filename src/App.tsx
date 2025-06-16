@@ -43,7 +43,7 @@ export default function App() {
         <div className="mt-6 space-y-2 text-[#5a321d]">
           <p>📅 Viernes, 5 de julio</p>
           <p>🕒 4:00 PM</p>
-          <p>📍 Parque Bicentenario, CDMX</p>
+          <p>📍 En casita</p>
         </div>
         <a
           href="https://maps.app.goo.gl/bVF9XyPYnNQJxoxw6"
