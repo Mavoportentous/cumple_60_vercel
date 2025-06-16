@@ -46,7 +46,7 @@ export default function App() {
           <p>📍 Parque Bicentenario, CDMX</p>
         </div>
         <a
-          href="https://www.google.com/maps?q=Parque+Bicentenario+CDMX"
+          href="https://maps.app.goo.gl/bVF9XyPYnNQJxoxw6"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-4 block bg-[#f7a78c] text-white font-semibold py-2 px-4 rounded-xl shadow hover:bg-[#f28d73]"
