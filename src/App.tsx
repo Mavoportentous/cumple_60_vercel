@@ -49,7 +49,7 @@ export default function App() {
 
         <div className="mt-6 space-y-2 text-[#5a321d]">
           <p>📅 Sábado, 5 de julio</p>
-          <p>🕒 14:00 PM</p>
+          <p>🕒 14:00 h</p>
           <p>📍 En casita</p>
         </div>
 
