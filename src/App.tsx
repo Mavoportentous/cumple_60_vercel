@@ -27,7 +27,7 @@ export default function App() {
   };
 
   const downloadICS = () => {
-    const icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:Cumpleaños de Tere Ortiz\nDESCRIPTION:¡Vamos a celebrar los 60 años de Tere Ortiz en casita!\nLOCATION:En casita\nDTSTART:20240705T160000\nDTEND:20240705T190000\nEND:VEVENT\nEND:VCALENDAR`;
+    const icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nSUMMARY:Cumpleaños de Tere Ortiz\nDESCRIPTION:¡Vamos a celebrar los 60 años de Tere Ortiz en casita!\nLOCATION:En casita\nDTSTART:20240705T140000\nDTEND:20240705T170000\nEND:VEVENT\nEND:VCALENDAR`;
     const blob = new Blob([icsContent], { type: "text/calendar" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
@@ -48,8 +48,8 @@ export default function App() {
         <p className="text-lg font-medium text-[#b54627]">cumple 60 años</p>
 
         <div className="mt-6 space-y-2 text-[#5a321d]">
-          <p>📅 Viernes, 5 de julio</p>
-          <p>🕒 4:00 PM</p>
+          <p>📅 Sábado, 5 de julio</p>
+          <p>🕒 14:00 PM</p>
           <p>📍 En casita</p>
         </div>
 
