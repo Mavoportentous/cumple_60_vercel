@@ -1,12 +1,12 @@
-# 🎉 Invitación de cumpleaños - Tere Ortiz 🎂
+# 🎉 Invitación de cumpleaños - 🎂
 
 Este proyecto es una **invitación web responsiva** creada con **React.js + Vite + Tailwind CSS**, especialmente diseñada para el **60° cumpleaños de Tere Ortiz**.
 
 ## 📆 Detalles del evento
 
-- **🎉 Celebración:** Cumpleaños número 60 de Tere Ortiz  
-- **📅 Fecha:** Viernes 5 de julio  
-- **🕒 Hora:** 4:00 PM  
+- **🎉 Celebración:**  
+- **📅 Fecha:** 
+- **🕒 Hora:**   
 - **📍 Lugar:** Parque Bicentenario, CDMX
 
 ## 🚀 Tecnologías utilizadas
