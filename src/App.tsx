@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 
 export default function App() {
-  const [rsvp, setRsvp] = useState({ name: "", guests: "" });
+  const [rsvp, setRsvp] = useState({ name: "", guests: "1" });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -49,7 +49,7 @@ export default function App() {
 
         <div className="mt-6 space-y-2 text-[#5a321d]">
           <p>📅 Sábado, 5 de julio</p>
-          <p>🕒 14:00 h</p>
+          <p>🕒 14:00 PM</p>
           <p>📍 En casita</p>
         </div>
 
@@ -75,17 +75,6 @@ export default function App() {
                 required
                 value={rsvp.name}
                 onChange={(e) => setRsvp({ ...rsvp, name: e.target.value })}
-                className="mt-1 w-full border border-gray-300 rounded-md p-2"
-              />
-            </label>
-            <label className="block">
-              <span className="text-sm font-medium">¿Cuántas personas asisten?</span>
-              <input
-                type="number"
-                min="1"
-                required
-                value={rsvp.guests}
-                onChange={(e) => setRsvp({ ...rsvp, guests: e.target.value })}
                 className="mt-1 w-full border border-gray-300 rounded-md p-2"
               />
             </label>
